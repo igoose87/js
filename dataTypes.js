@@ -12,6 +12,10 @@ const user = {
   isOwner
 } // object
 
+// Константа может меняться если мы изменяем элемент массива либо поле объекта
+user.age = 26; // Можно менять поле в const объекте
+
 const users = [user, {}]
+users.push() // можно изменять const массив
 users[1]
 
